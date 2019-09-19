@@ -8,7 +8,7 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
-  get "/home" do
+  get "/home/new" do
     erb :welcome
 
   end
